@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+}
+/*flex container*/
+.container {
+  color: #fff;
+  max-width: 400px;
+  background-color: rgb(8, 7, 7);
+  display: flex;
+  flex-wrap: wrap;
+}
+/*Flex*/
+.item {
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid #000;
+}
+.cabecalho {
+  flex-basis: 800px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color: #dfbd84;
+}
+.out {
+  flex-grow: 1;
+  background-color: orange;
+}
+.section {
+  background-color: red;
+  flex-direction: column;
+  flex-basis: 200px;
+}
+.footer {
+  background-color: yellowgreen;
+  flex-basis: 100;
+}
